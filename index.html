@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="orbit-1.2.3.css">
+<!-- ШРИФТ -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<!-- СКРИПТ НА ПАРАЛЛАКС -->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="js/bgscroll.js"></script>
+<!-- СКРИПТ НА СЛАЙДЕР -->	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
+	
+	<title>Document</title>
+</head>
+<body>
+<!-- ОБЕРТКА -->
+	<div class="wrapper">
+<!-- ВЕРХНИЙ РАЗДЕЛ НАВИГАЦИИ -->
+		<div class="preheader">
+			<div class="logo">
+				<p>@ANNGEN</p>
+			</div>
+			<div class="link">
+				<p>+7-911-081-52-70</p>
+			</div>
+		</div>
+<!-- КОНТЕНТ -->
+		<div class="content">
+<!-- ЗАГОЛОВОК С КАРТИНОЙ -->			
+			<div class="header">
+				<p>ИНТЕРЬЕРНЫЕ КАРТИНЫ НА ЗАКАЗ</p>
+			</div>
+<!-- БЛОК ЗНАКОМСТВА С ФОТО -->			
+			<div class="obomne">
+				<div class="picture">
+					<img class="profilephoto" src="profile.jpg">
+				</div>
+				<div class="text">
+					<h1>Привет!</h1>
+					<p>Меня зовут Генина Анна, и я создаю интерьерные картины акварелью и маслом на заказ. Пролистайте чуть ниже, что бы ознакомиться с моими работами!</p>
+				</div>
+			</div>
+		<div>
+
+		<p>Галерея работ</p>
+		</div>
+<!-- СЛАЙДЕР -->		
+			<div class="slider">
+				<div id="featured"> 
+					<img src="img/first.jpg"/>
+					<img src="img/second.jpg"/>
+					<img src="img/third.jpg"/>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div><div>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis commodi, necessitatibus maiores mollitia neque fugiat deserunt iste facere quam ipsa deleniti itaque ipsum quo sed velit facilis assumenda fugit.
+		</div>
+	</div>
+
+<!-- СКРИПТ НА ПАРАЛЛАКС -->
+	
+	<script type="text/javascript">
+$(window).scroll(function(){
+  $('.header').bgscroll({
+    direction: 'bottom', // направление bottom или top
+    bgpositionx: 50, // x позиция фонового изображения, от 0 до 100, размерность в %, 50 - означает по центру
+    debug: false, // Режим отладки
+    min:0, // минимальное положение (в %) на которое может смещаться фон
+    max:100 // максимальное положение (в %) на которое может смещаться фон
+  });
+  
+})
+</script>
+
+<!-- СКРИПТ НА СЛАЙДЕР -->
+
+<script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit({
+				bullets:true,
+				});
+			});
+		</script>
+
+<!-- ПОДВАЛ -->
+<footer class="footer">
+		
+</footer>
+</body>
+</html>
