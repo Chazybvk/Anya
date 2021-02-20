@@ -192,6 +192,13 @@ body {
 
 }
 
+@media	(max-width: 900px){
+	.columns__row {
+	display: flex;
+	flex-direction: column;
+}
+}
+
 .columns__column {
 	flex: 0 0 50%;
 }
